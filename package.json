@@ -2,7 +2,7 @@
   "name": "@family-flix/api",
   "version": "2.5.0",
   "scripts": {
-    "build": "node server.js",
+    "build": "yarn prisma migrate deploy --schema ./prisma/schema.prisma",
     "dev": "node server.js",
     "start": "node server.js"
   },
