@@ -2,10 +2,14 @@
   "name": "@family-flix/api",
   "version": "2.5.0",
   "scripts": {
+    "build": "node server.js",
+    "dev": "node server.js",
     "start": "node server.js"
   },
+  "main": "server.js",
   "dependencies": {
-    "@prisma/client": "4.13.0"
+    "@prisma/client": "4.13.0",
+    "@vercel/node": "^5.0.0"
   },
   "devDependencies": {
     "prisma": "4.13.0"
