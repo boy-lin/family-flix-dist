@@ -1,0 +1,3 @@
+
+{"type":0,"children":[{"type":3,"text":"获取索引根目录失败","created":1735093213431}],"created":1735093213431}
+{"type":0,"children":[{"type":3,"text":"索引完成","created":1735093213431}],"created":1735093213431}
